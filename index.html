@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BioExplore</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Raleway:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="jumbotron">
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="top-section">
+            <div class="search-bar">
+                <input type="text" placeholder="Buscar...">
+                <i class="fas fa-search"></i>
+            </div>
+            <button class="theme-toggle" onclick="toggleTheme()">
+                <i id="theme-icon" class="fas fa-moon"></i>
+            </button>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/mariaalvaradolhs/?locale=es_LA"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/mariaalvaradolhs/"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+        <div class="menu">
+            <a href="#">Inicio</a>
+            <a href="teoriacelular.html">Teoría Celular</a>
+            <a href="celulaprocariotayeucariota.html">Célula Procariota y Eucariota</a>
+            <a href="adnyarn.html">ADN y ARN</a>
+        </div>
+    </nav>
+    </header>
+    <!-- Main Content Section -->
+    <section class="main-content">
+        <div class="image-container">
+            <div class="text">
+                <h1>BioExplore</h1>
+                <p>Explora los principios de la teoría celular, conoce las diferencias entre células procariotas y eucariotas, y adéntrate en el papel esencial del ADN y ARN en la vida. Comprende cómo estos componentes fundamentales sustentan la estructura, función y herencia de todos los seres vivos.</p>
+            </div>
+            <img src="Imágenes/imagenpp.jpg" alt="BioExplore">
+        </div>
+
+        <div class="section">
+            <img src="Imágenes/biologia.jpg" alt="Biología Celular">
+            <div class="text">
+                <h2>Biología Celular</h2>
+                <p>La biología celular es una rama de la biología que estudia las células, su estructura, función y comportamiento. Es fundamental para comprender la vida en su nivel más básico.</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="text">
+                <h2>Conoce más</h2>
+            </div>
+            <div class="image-grid">
+                <a href="teoriacelular.html"><img src="Imágenes/teoria.jpg" alt="Teoría Celular"></a>
+                <a href="celulaprocariotayeucariota.html"><img src="Imágenes/procariota.jpg" alt="Células Procariotas y Eucariotas"></a>
+                <a href="adnyarn.html"><img src="Imágenes/adn.jpg" alt="ADN y ARN"></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="column">
+            <h2>BioExplore</h2>
+            <p>Explora el mundo de la biología celular y sus fascinantes descubrimientos.</p>
+        </div>
+        <div class="column">
+            <h2>Integrantes</h2>
+            <p>Aitana Morote</p>
+            <p>Luana Ricci</p>
+            <p>Takumi Yshikawa</p>
+            <p>Rafael Cerna</p>
+        </div>
+        <div class="column">
+            <h2>Contacto</h2>
+            <input type="email" placeholder="Correo Electrónico">
+            <button>Registrarse</button>
+        </div>
+    <script>
+        // Toggle dark/light theme
+        function toggleTheme() {
+            document.body.classList.toggle('dark-mode');
+            let icon = document.getElementById('theme-icon');
+            icon.classList.toggle('fa-moon');
+            icon.classList.toggle('fa-sun');
+            localStorage.setItem('theme', document.body.classList.contains('dark-mode') ? 'dark' : 'light');
+        }
+
+        // Check saved theme preference on page load
+        window.onload = function() {
+            if(localStorage.getItem('theme') === 'dark') {
+                document.body.classList.add('dark-mode');
+                document.getElementById('theme-icon').classList.replace('fa-moon', 'fa-sun');
+            }
+        }
+    </script>
+</footer>
+</body>
+</html>
+

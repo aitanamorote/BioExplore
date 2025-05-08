@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title> Célula Procariota y Eucariota | BioExplore</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Raleway:wght@300;400;700&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="stylesubpagina.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+<header>
+        <div class="jumbotron">
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="top-section">
+            <div class="search-bar">
+                <input type="text" placeholder="Buscar...">
+                <i class="fas fa-search"></i>
+            </div>
+            <button class="theme-toggle" onclick="toggleTheme()">
+                <i id="theme-icon" class="fas fa-moon"></i>
+            </button>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/mariaalvaradolhs/?locale=es_LA"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/mariaalvaradolhs/"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+        <div class="menu">
+            <a href="index.html">Inicio</a>
+            <a href="teoriacelular.html">Teoría Celular</a>
+            <a href="#">Célula Procariota y Eucariota</a>
+            <a href="adnyarn.html">ADN y ARN</a>
+        </div>
+    </nav>
+    </header>
+    <div class="content">
+        <h1>Célula Procariota y Eucariota</h1>
+        <p>Las células son las unidades básicas de todos los seres vivos. Se dividen principalmente en dos tipos: procariotas y eucariotas. Esta clasificación se basa en la presencia o ausencia de núcleo definido y otros orgánulos membranosos.</p>
+
+        <h2>Célula Procariota</h2>
+        <p>La célula procariota es el tipo más primitivo y simple de célula, que se caracteriza principalmente por <b>no poseer un núcleo verdadero</b> ni orgánulos rodeados por membranas. Su estructura interna está organizada de forma sencilla pero funcional, lo cual les permite vivir en entornos muy diversos, desde océanos hasta ambientes extremos como volcanes y salares.  </p>
+
+        <!--Estructura y Componentes-->
+        <section class="organelos-procariota" style="max-width: 800px; margin: 40px auto; font-family: 'Montserrat', sans-serif; color: #333;">
+          <style>
+            .organelos-procariota ul {
+              list-style: none;
+              padding: 0;
+            }
+
+            .organelos-procariota li {
+              background: #f1f1f1;
+              margin-bottom: 12px;
+              padding: 15px 20px;
+              border-left: 5px solid #2b9348;
+              border-radius: 8px;
+              box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+              transition: transform 0.2s;
+            }
+
+            .organelos-procariota li:hover {
+              transform: scale(1.02);
+            }
+
+            .organelos-procariota h3 {
+              font-size: 22px;
+              color: #222;
+              margin-bottom: 20px;
+            }
+
+            .organelos-procariota strong {
+              color: #222;
+            }
+          </style>
+
+          <h3>Organelos y Estructuras de la Célula Procariota</h3>
+          <ul>
+            <li><strong>Nucleoide:</strong> Región donde se encuentra el ADN circular, libre en el citoplasma.</li>
+            <li><strong>Cromosoma bacteriano (Cromosoma Único):</strong> Contiene la mayoría de los genes necesarios para la supervivencia y funciones básicas de la célula.</li>
+            <li><strong>Plásmidos:</strong> Moléculas pequeñas de ADN independientes, con genes útiles como resistencia a antibióticos.</li>
+            <li><strong>Membrana Plasmática:</strong> Controla el paso de sustancias hacia dentro y fuera de la célula.</li>
+            <li><strong>Pared celular:</strong> Protege y da forma; compuesta por peptidoglicano (en bacterias).</li>
+            <li><strong>Citoplasma:</strong> Medio acuoso donde ocurren las reacciones metabólicas.</li>
+            <li><strong>Ribosomas:</strong> Encargados de sintetizar proteínas; más pequeños que en eucariotas.</li>
+            <li><strong>Flagelo:</strong> Apéndice móvil que permite el desplazamiento (en células móviles).</li>
+            <li><strong>Fimbrias o Pili:</strong> Estructuras filamentosas que permiten la adhesión a superficies o la conjugación genética.</li>
+            <li><strong>Cápsula:</strong> Capa externa viscosa que protege frente al sistema inmunológico o la desecación.</li>
+          </ul>
+          <br>
+          <h3>Mofología</h3>
+          <p>La forma de una célula procariota está determinada por su pared celular. Existen diversas formas morfológicas.</p>
+          <ul>
+            <li><strong>Cocos:</strong> Forma esférica o redondeada.</li>
+            <li><strong>Bacilos:</strong> Forma alargada, como bastones.</li>
+            <li><strong>Espirilos:</strong> Células en forma de espiral rígida.</li>
+            <li><strong>Espiroquetas:</strong> Espirales flexibles y alargadas.</li>
+            <li><strong>Vibrios:</strong> Forma de coma o curva.</li>
+            <br>
+            <p>Además pueden agruparse en formas características como:  </p>
+            <li><strong>Diplococos</strong> (pares), <strong>Estreptococos</strong> (cadenas), <strong>Estafilococos</strong> (racimos) </li>
+          </ul>
+          <div class="gallery">
+              <img src="Imágenes/diagramaprocariota.jpg" alt="Diagrama célula procariota">
+              <img src="Imágenes/morfologia.jpg" alt="Morfología Célula Procariota">
+        </section>
+
+        <h2>Reproducción</h2>
+        <p>Se reproducen por <strong>fisión binaria</strong>, un proceso asexual muy rápido y eficiente. No hay mitosis ni meiosis.</p>
+        <div class="gallery">
+            <img src="Imágenes/fision.jpg" alt="Diagrama célula eucariota"></div>
+
+        <!--Ejemplos Procariota-->
+        <section class="ejemplos-procariota" style="max-width: 800px; margin: 40px auto; font-family: 'Montserrat', sans-serif; color: #333;">
+          <style>
+            .ejemplos-procariota ul {
+              list-style: none;
+              padding: 0;
+            }
+
+            .ejemplos-procariota li {
+              background: #f1f1f1;
+              margin-bottom: 12px;
+              padding: 15px 20px;
+              border-left: 5px solid #2b9348;
+              border-radius: 8px;
+              box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+              transition: transform 0.2s;
+            }
+
+            .ejemplos-procariota li:hover {
+              transform: scale(1.02);
+            }
+
+            .ejemplos-procariota h3 {
+              font-size: 22px;
+              color: #222;
+              margin-bottom: 20px;
+            }
+
+            .ejemplos-procariota strong {
+              color: #222;
+            }
+          </style>
+
+          <h3>Ejemplos de Células Procariota</h3>
+          <ul>
+            <li><strong>Bacterias:</strong> Escherichia coli, Streptococcus pneumoniae.</li>
+            <li><strong>Arqueas:</strong> Halobacterium salinarum (pueden vivir en ambientes extremadamente salinos).</li>
+        </ul>
+        <div class="gallery">
+            <img src="Imágenes/ecoli.jpg" alt="Escherichia coli">
+            <img src="Imágenes/halo1.jpg" alt="Halobacterium Arquea">
+        </div>
+<br>
+        <h2>Célula Eucariota</h2>
+        <p>La célula eucariota es una célula <strong>más evolucionada y estructuralmente compleja</strong>. Posee un núcleo definido donde se encuentra el ADN, así como diversos orgánulos membranosos que realizan funciones especializadas. Es el tipo celular que compone a todos los organismos multicelulares, y también algunos unicelulares como los protozoos.</p>
+
+       <!--Estructura y Componentes Eucariota-->
+       <section class="organelos-eucariota" style="max-width: 800px; margin: 40px auto; font-family: 'Montserrat', sans-serif; color: #333;">
+         <style>
+           .organelos-eucariota ul {
+             list-style: none;
+             padding: 0;
+           }
+
+           .organelos-eucariota li {
+             background: #f1f1f1;
+             margin-bottom: 12px;
+             padding: 15px 20px;
+             border-left: 5px solid #219ebc;
+             border-radius: 8px;
+             box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+             transition: transform 0.2s;
+           }
+
+           .organelos-eucariota li:hover {
+             transform: scale(1.02);
+           }
+
+           .organelos-eucariota h3 {
+             font-size: 22px;
+             color: #222;
+             margin-bottom: 20px;
+           }
+
+           .organelos-eucariota strong {
+             color: #222;
+           }
+         </style>
+
+         <h3>Organelos y Estructuras de la Célula Eucariota</h3>
+         <h3>Célula Vegetal</h3>
+         <br>
+         <ul>
+           <li><strong>Nucleo:</strong> Contiene el ADN, controla la actividad celular.</li>
+           <li><strong>Nucleolo:</strong> Produce ribosomas.</li>
+           <li><strong>Membrana Plasmática:</strong> Moléculas pequeñas de ADN independientes, con genes útiles como resistencia a antibióticos.</li>
+           <li><strong>Membrana plasmática:</strong> Regula el paso de sustancias al interior y exterior.</li>
+           <li><strong>Pared Celular (De Celulosa):</strong> Da forma, rigidez y soporte (solo plantas).</li>
+           <li><strong>Citoplasma:</strong> Medio donde están los organelos.</li>
+           <li><strong>Mitocondrias:</strong> Generan energía (ATP) mediante respiración celular.</li>
+           <li><strong>Cloroplastos:</strong> Realizan la fotosíntesis (solo plantas).</li>
+           <li><strong>Retículo endoplásmico rugoso (RER):</strong> Sintetiza proteínas, gracias a los ribosomas adheridos.</li>
+           <li><strong>Retículo endoplásmico liso (REL):</strong> Sintetiza lípidos y detoxifica sustancias.</li>
+           <li><strong>Aparato de Golgi:</strong> Modifica, empaqueta y distribuye proteínas y lípidos.</li>
+           <li><strong>Vacuola Central Grande:</strong> Almacena agua y sustancias, mantiene la turgencia celular (solo plantas).</li>
+           <li><strong>Centrosoma y Centriolos:</strong> Participan en la división celular (solo en animales).</li>
+           <li><strong>Ribosomas:</strong> Sintetizan proteínas.</li>
+           <li><strong>Citoesqueleto:</strong> Da forma, permite el transporte y movimiento intracelular.</li>
+         </ul>
+         <br>
+         <h3>Célula Animal</h3>
+         <br>
+         <ul>
+           <li><strong>Nucleo:</strong> Contiene el ADN, controla la actividad celular.</li>
+           <li><strong>Nucleolo:</strong> Produce ribosomas.</li>
+           <li><strong>Membrana Plasmática:</strong> Moléculas pequeñas de ADN independientes, con genes útiles como resistencia a antibióticos.</li>
+           <li><strong>Membrana plasmática:</strong> Regula el paso de sustancias al interior y exterior.</li>
+           <li><strong>Citoplasma:</strong> Medio donde se encuentran los organelos.</li>
+           <li><strong>Mitocondrias:</strong> Generan energía (ATP) mediante respiración celular.</li>
+           <li><strong>Retículo endoplásmico rugoso (RER):</strong> Sintetiza proteínas, gracias a los ribosomas adheridos.</li>
+           <li><strong>Retículo endoplásmico liso (REL):</strong> Sintetiza lípidos y detoxifica sustancias.</li>
+           <li><strong>Aparato de Golgi:</strong> Modifica, empaqueta y distribuye proteínas y lípidos.</li>
+           <li><strong>Lisosomas:</strong> Contienen enzimas digestivas, degradan sustancias (solo en animales).</li>
+           <li><strong>Centrosoma y Centriolos:</strong> Participan en la división celular (solo en animales).</li>
+           <li><strong>Ribosomas:</strong> Sintetizan proteínas.</li>
+           <li><strong>Citoesqueleto:</strong> Da forma, permite el transporte y movimiento intracelular.</li>
+           <li><strong>Vesículas:</strong> Transporte de sustancias dentro/fuera de la célula.</li>
+         </ul>
+
+         <!--Resumen Visual-->
+         <section class="comparacion-eucariota" style="max-width: 800px; margin: 40px auto; font-family: 'Montserrat', sans-serif; color: #333;">
+           <h2 style="color: #222; font-size: 22px; margin-bottom: 20px;">Comparación rápida: Célula Animal vs Célula Vegetal</h2>
+           <table style="width: 100%; border-collapse: collapse; font-size: 15px;">
+             <thead style="background-color: #eee;">
+               <tr>
+                 <th style="padding: 10px; border: 1px solid #ccc;">Organelo</th>
+                 <th style="padding: 10px; border: 1px solid #ccc;">Célula Animal</th>
+                 <th style="padding: 10px; border: 1px solid #ccc;">Célula Vegetal</th>
+               </tr>
+             </thead>
+             <tbody>
+               <tr>
+                 <td style="padding: 10px; border: 1px solid #ccc;">Núcleo</td>
+                 <td style="padding: 10px; border: 1px solid #ccc;">✅</td>
+                 <td style="padding: 10px; border: 1px solid #ccc;">✅</td>
+               </tr>
+               <tr>
+                 <td style="padding: 10px; border: 1px solid #ccc;">Mitocondrias</td>
+                 <td style="padding: 10px; border: 1px solid #ccc;">✅</td>
+                 <td style="padding: 10px; border: 1px solid #ccc;">✅</td>
+               </tr>
+               <tr>
+                 <td style="padding: 10px; border: 1px solid #ccc;">Cloroplastos</td>
+                 <td style="padding: 10px; border: 1px solid #ccc;">❌</td>
+                 <td style="padding: 10px; border: 1px solid #ccc;">✅</td>
+               </tr>
+               <tr>
+                 <td style="padding: 10px; border: 1px solid #ccc;">Lisosomas</td>
+                 <td style="padding: 10px; border: 1px solid #ccc;">✅</td>
+                 <td style="padding: 10px; border: 1px solid #ccc;">❌ (reemplazados por vacuola en funciones digestivas)</td>
+               </tr>
+               <tr>
+                 <td style="padding: 10px; border: 1px solid #ccc;">Pared celular</td>
+                 <td style="padding: 10px; border: 1px solid #ccc;">❌</td>
+                 <td style="padding: 10px; border: 1px solid #ccc;">✅</td>
+               </tr>
+               <tr>
+                 <td style="padding: 10px; border: 1px solid #ccc;">Vacuola central</td>
+                 <td style="padding: 10px; border: 1px solid #ccc;">❌</td>
+                 <td style="padding: 10px; border: 1px solid #ccc;">✅</td>
+               </tr>
+               <tr>
+                 <td style="padding: 10px; border: 1px solid #ccc;">Centriolos</td>
+                 <td style="padding: 10px; border: 1px solid #ccc;">✅</td>
+                 <td style="padding: 10px; border: 1px solid #ccc;">❌</td>
+               </tr>
+               <tr>
+                 <td style="padding: 10px; border: 1px solid #ccc;">Retículos + Golgi</td>
+                 <td style="padding: 10px; border: 1px solid #ccc;">✅</td>
+                 <td style="padding: 10px; border: 1px solid #ccc;">✅</td>
+               </tr>
+             </tbody>
+           </table>
+        <div class="gallery">
+            <img src="Imágenes/diagramaeucariota.jpg" alt="Diagrama célula eucariota">
+        </div></section>
+
+        <!--Mitosis y Meiosis-->
+        <section>
+        <h2>Mitosis y Meiosis (Procesos de División Celular)</h2>
+        <h3>División Celular</h3>
+        <p>La división celular es el proceso mediante el cual una célula madre origina nuevas células. En las <strong>células eucariotas</strong>, existen <strong>dos formas principales de división</strong>: <strong>mitosis</strong> y <strong>meiosis</strong>. Ambas tienen como fin transmitir el material genético, pero con objetivos y resultados distintos.</p>
+        <h3>Mitosis</h3>
+        <h4>Función</h4>
+        <p>Produce células <strong>idénticas</strong> a la célula original. Es esencial para el <strong>crecimiento</strong>, la <strong>reparación de tejidos</strong> y la <strong>reproducción asexual</strong>.</p>
+       <h3>Características</h3>
+       <ul style="list-style: none; padding-left: 0; font-family: 'Montserrat', sans-serif;">
+         <li style="border-left: 5px solid #86007f; padding: 10px 15px; margin-bottom: 10px; background: #f9f9f9; border-radius: 4px;">
+           Ocurre en células <strong>somáticas</strong> (no sexuales)
+         </li>
+         <li style="border-left: 5px solid #86007f; padding: 10px 15px; margin-bottom: 10px; background: #f9f9f9; border-radius: 4px;">
+           El número de cromosomas <strong>se conserva</strong> (2n → 2n).
+         </li>
+         <li style="border-left: 5px solid #86007f; padding: 10px 15px; margin-bottom: 10px; background: #f9f9f9; border-radius: 4px;">
+           Una sola división produce <strong>2 células hijas iguales</strong>.
+         </li>
+       </ul>
+
+        <!--Fases de la Mitosis-->
+        <section class="mitosis-eucariota" style="max-width: 800px; margin: 20px auto; font-family: 'Montserrat', sans-serif; color: #333;">
+        <style>
+          .mitosis-eucariota ul {
+            list-style: none;
+            padding: 0;
+          }
+
+          .mitosis-eucariota li {
+            background: #f1f1f1;
+            margin-bottom: 12px;
+            padding: 15px 20px;
+            border-left: 5px solid #86007f;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+            transition: transform 0.2s;
+          }
+
+          .mitosis-eucariota li:hover {
+            transform: scale(1.02);
+          }
+
+          .mitosis-eucariota h3 {
+            font-size: 22px;
+            color: #222;
+            margin-bottom: 20px;
+          }
+
+          .mitosis-eucariota strong {
+            color: #222;
+          }
+        </style>
+        <h3>Fases de la Mitosis</h3>
+        <ul>
+          <li><strong>Interfase:</strong> La célula replica su ADN y orgánulos. El ADN está en forma de cromatina. No es parte formal de la mitosis pero es esencial.</li>
+          <li><strong>Profase:</strong> Los cromosomas se condensan. El núcleo comienza a desaparecer. Los centriolos migran a polos opuestos y comienza la formación del huso mitótico.</li>
+          <li><strong>Prometafase:</strong> La envoltura nuclear se desintegra por completo. Los microtúbulos del huso se conectan a los <strong>cinetocoros</strong> de los cromosomas. Los cromosomas empiezan a moverse hacia el plano ecuatorial.</li>
+          <li><strong>Metafase:</strong> Los cromosomas se alinean en el centro de la célula (placa metafásica). Cada cromosoma está unido a ambos polos por fibras del huso.</li>
+          <li><strong>Anafase:</strong> Las <strong>cromátidas hermanas</strong> se separan y son arrastradas hacia los polos opuestos. Es la fase más corta pero crucial.</li>
+          <li><strong>Telofase:</strong> Se forman dos núcleos nuevos. Los cromosomas se descondensan a cromatina y se reorganizan las envolturas nucleares.</li>
+          <li><strong>Citosinesis:</strong> División física del citoplasma. En células animales se forma un surco de separación; en vegetales, una placa celular.</li>
+        </ul>
+        <div class="gallery">
+            <img src="Imágenes/mitosis.jpg" alt="Diagrama Mitosis">
+        </div>
+<br>
+<h3> Meiosis</h3>
+<h4>Función</h4>
+<p>Produce células <strong>sexuales (gametos)</strong> con la mitad de la información genética. Es crucial en la <strong>reproducción sexual</strong> y en la <strong>variabilidad genética</strong>.</p>
+<h3>Características</h3>
+        <ul>
+          <li>Ocurre en <strong>células germinales</strong>.</li>
+          <li><strong>Reduce</strong> el número de cromosomas se conserva (2n → n).</li>
+          <li>Involucra <strong>2 divisiones celulares consecutivas</strong>.</li>
+          <li>Genera <strong>4 células hijas distintas entre sí</strong>.</li>
+        </ul>
+        <!--Fases de la Mitosis-->
+        <section class="meiosis-eucariota" style="max-width: 800px; margin: 40px auto; font-family: 'Montserrat', sans-serif; color: #333;">
+        <style>
+          .meiosis-eucariota ul {
+            list-style: none;
+            padding: 0;
+          }
+
+          .meiosis-eucariota li {
+            background: #f1f1f1;
+            margin-bottom: 12px;
+            padding: 15px 20px;
+            border-left: 5px solid #86007f;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+            transition: transform 0.2s;
+          }
+
+          .meiosis-eucariota li:hover {
+            transform: scale(1.02);
+          }
+
+          .meiosis-eucariota h3 {
+            font-size: 22px;
+            color: #222;
+            margin-bottom: 20px;
+          }
+
+          .meiosis-eucariota strong {
+            color: #222;
+          }
+        </style>
+        <h3>Fases de la Meiosis</h3>
+        <h4>Meiosis I (División reductiva)</h4>
+        <br>
+        <ul>
+          <li><strong>Profase I:</strong> Intercambio de genes entre cromosomas homólogos <strong>(crossing-over)</strong>.</li>
+          <li><strong>Metafase I:</strong> Los pares homólogos se alinean.</li>
+          <li><strong>Anafase I:</strong> Los cromosomas homólogos se separan.</li>
+          <li><strong>Telofase I y Citosinesis:</strong> Se forman dos células con n cromosomas duplicados.</li>
+          <h4>Meiosis II (Similar a la Mitosis)</h4>
+          <br>
+          <li><strong>Profase II:</strong> Se forman nuevos husos.</li>
+          <li><strong>Metafase II:</strong> Cromosomas se alinean en el centro.</li>
+          <li><strong>Anafase II:</strong>  Separación de cromátidas hermanas.</li>
+          <li><strong>Telofase II y Citosinesis:</strong> Se obtienen <strong>cuatro células haploides (n)</strong>.</li>
+        </ul>
+        <div class="gallery">
+            <img src="Imágenes/meiosis.jpg" alt="Diagrama Mitosis">
+        </div>
+<br>
+ <!--Resumen Visual-->
+ <section class="comparacion-eucariota" style="max-width: 800px; margin: 40px auto; font-family: 'Montserrat', sans-serif; color: #333;">
+   <h2 style="color: #222; font-size: 22px; margin-bottom: 20px;">Mitosis vs Meiosis</h2>
+   <table style="width: 100%; border-collapse: collapse; font-size: 15px;">
+     <thead style="background-color: #eee;">
+       <tr>
+         <th style="padding: 10px; border: 1px solid #ccc;">Característica</th>
+         <th style="padding: 10px; border: 1px solid #ccc;">Mitosis</th>
+         <th style="padding: 10px; border: 1px solid #ccc;">Meiosis</th>
+       </tr>
+     </thead>
+     <tbody>
+       <tr>
+         <td style="padding: 10px; border: 1px solid #ccc;">N° de divisiones</td>
+         <td style="padding: 10px; border: 1px solid #ccc;">1</td>
+         <td style="padding: 10px; border: 1px solid #ccc;">2</td>
+       </tr>
+       <tr>
+         <td style="padding: 10px; border: 1px solid #ccc;">N° de células hijas</td>
+         <td style="padding: 10px; border: 1px solid #ccc;">2</td>
+         <td style="padding: 10px; border: 1px solid #ccc;">4</td>
+       </tr>
+       <tr>
+         <td style="padding: 10px; border: 1px solid #ccc;">Genéticamente</td>
+         <td style="padding: 10px; border: 1px solid #ccc;">Idénticas</td>
+         <td style="padding: 10px; border: 1px solid #ccc;">Diferentes</td>
+       </tr>
+       <tr>
+         <td style="padding: 10px; border: 1px solid #ccc;">Tipo de Célula</td>
+         <td style="padding: 10px; border: 1px solid #ccc;">Somática</td>
+         <td style="padding: 10px; border: 1px solid #ccc;">Germinal</td>
+       </tr>
+       <tr>
+         <td style="padding: 10px; border: 1px solid #ccc;">Reproducción</td>
+         <td style="padding: 10px; border: 1px solid #ccc;">Asexual</td>
+         <td style="padding: 10px; border: 1px solid #ccc;">Sexual</td>
+       </tr>
+     </tbody>
+   </table>
+</section>
+
+<!--Tipos de Células Eucariotas-->
+        <section class="tipos-eucariota" style="max-width: 800px; margin: 20px auto; font-family: 'Montserrat', sans-serif; color: #333;">
+        <style>
+          .tipos-eucariota ul {
+            list-style: none;
+            padding: 0;
+          }
+
+          .tipos-eucariota li {
+            background: #f1f1f1;
+            margin-bottom: 12px;
+            padding: 15px 20px;
+            border-left: 5px solid #86007f;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+            transition: transform 0.2s;
+          }
+
+          .tipos-eucariota li:hover {
+            transform: scale(1.02);
+          }
+
+          .tipos-eucariota h2 {
+            font-size: 22px;
+            color: #222;
+            margin-bottom: 20px;
+          }
+
+          .tipos-eucariota strong {
+            color: #222;
+          }
+        </style>
+        <h2>Tipos de Células Eucariotas</h2>
+        <h3>Célula Animal</h3>
+        <ul>
+          <li><strong>No tiene pared celular.</strong></li>
+          <li>Forma variable y flexible.</li>
+          <li>Organelos como lisosomas y centriolos.</li>
+          <li>Gran variedad de funciones especializadas (neuronas, glóbulos rojos, células musculares).</li>
+        </ul>
+        <br>
+        <ul>
+          <h3>Célula Vegetal</h3>
+          <li><strong>Tiene pared celular</strong> de celulosa (estructura rígida).</li>
+          <li>Contiene <strong>cloroplastos</strong> (fotosíntesis).</li>
+          <li>Gran <strong>vacuola central</strong> que regula el agua y almacenamiento.</li>
+          <li>No posee centriolos.</li>
+        </ul>
+        <br>
+        <ul>
+            <h3>Célula fúngica (Hongos)</h3>
+            <li>Pared celular de <strong>quitina</strong>.</li>
+            <li>No tiene cloroplastos.</li>
+            <li>Forma redes de <strong>hifas</strong> o <strong>levaduras</strong>.</li>
+            <li>Digestión <strong>extracelular</strong> (secreción de enzimas).</li>
+        </ul>
+        <br>
+        <ul>
+            <h3>Célula Protista</h3>
+            <li>Diversos tipos, muchos <strong>unicelulares</strong>.</li>
+            <li>Algunos <strong>autotróficos</strong> (como algas), otros <strong>heterótrofos</strong> (como protozoos).</li>
+            <li>Viven en <strong>medios acuáticos</strong>.</li>
+            <li>Pueden tener estructuras <strong>mixtas</strong>: flagelos, pseudópodos o cilios.</li>
+        </ul>
+        <div class="gallery">
+            <img src="Imágenes/protozoo.jpg" alt="Protozoos">
+            <img src="Imágenes/fungal.jpg" alt="Célula Fungica">
+        </div></div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="column">
+            <h2>BioExplore</h2>
+            <p>Explora el mundo de la biología celular y sus fascinantes descubrimientos.</p>
+        </div>
+        <div class="column">
+            <h2>Integrantes</h2>
+            <p>Aitana Morote</p>
+            <p>Luana Ricci</p>
+            <p>Takumi Yshikawa</p>
+            <p>Rafael Cerna</p>
+        </div>
+        <div class="column">
+            <h2>Contacto</h2>
+            <input type="email" placeholder="Correo Electrónico">
+            <button>Registrarse</button>
+        </div>
+    <script>
+        // Toggle dark/light theme
+        function toggleTheme() {
+            document.body.classList.toggle('dark-mode');
+            let icon = document.getElementById('theme-icon');
+            icon.classList.toggle('fa-moon');
+            icon.classList.toggle('fa-sun');
+            localStorage.setItem('theme', document.body.classList.contains('dark-mode') ? 'dark' : 'light');
+        }
+
+        // Check saved theme preference on page load
+        window.onload = function() {
+            if(localStorage.getItem('theme') === 'dark') {
+                document.body.classList.add('dark-mode');
+                document.getElementById('theme-icon').classList.replace('fa-moon', 'fa-sun');
+            }
+        }
+    </script>
+</footer>
+</body>
+</html>
